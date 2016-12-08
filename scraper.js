@@ -16,7 +16,6 @@ var bing = require('./lib/bing');
 function scraper(query, sedb, lang, start, proxy, type, callback) {
    if(type === 'yahoo') {
        yahoo(query, sedb, lang, start, proxy, function (err, next, links) {
-           i++;
            if (err) {
                callback(err);
            } else {
@@ -25,7 +24,6 @@ function scraper(query, sedb, lang, start, proxy, type, callback) {
        });
    } else if(type === 'bing') {
        bing(query, sedb, lang, start, proxy, function (err, next, links) {
-           i++;
            if (err) {
                callback(err);
            } else {
@@ -34,7 +32,6 @@ function scraper(query, sedb, lang, start, proxy, type, callback) {
        });
    } else {
        google(query, sedb, lang, start, proxy, function (err, next, links) {
-           i++;
            if (err) {
                callback(err);
            } else {
