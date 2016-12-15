@@ -1,7 +1,7 @@
 /**
  * Common methods to be used by scrapers
  */
-
+var URL = require('url');
 var Helpers = function () {};
 exports.Helpers  = Helpers;
 
@@ -61,10 +61,10 @@ exports.Helpers  = Helpers;
 
         return domain;
     };
+
     /**
      * Parse the subdomain from the provided URL and return it
      */
-
     this.getSubdomainURL = function (url) {
         var match = url.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);
         if (match != null && match.length > 2 && typeof match[2] === 'string' && match[2].length > 0) {
@@ -79,4 +79,23 @@ exports.Helpers  = Helpers;
         }
 
     };
+
+    /**
+     * Replace all the occurrence of given string.
+     */
+    this.replaceAll = function (string, find, replace) {
+        string = string.replace(/\s\s+/g, ' ');
+        return string.replace(new RegExp(this.escapeRegExp(find), 'g'), replace);
+    };
+    this.escapeRegExp = function (str) {
+        return str.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+    };
+    /**
+     * Parse the page from the provided URL and return it
+     */
+    this.getDomainURLToPage = function (url) {
+        return URL.parse(url).pathname;
+        //return url.replace(/^(?:\/\/|[^\/]+)*\//, "");
+    };
+
 }).call(Helpers.prototype);
