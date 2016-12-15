@@ -94,8 +94,8 @@ exports.Helpers  = Helpers;
      * Parse the page from the provided URL and return it
      */
     this.getDomainURLToPage = function (url) {
-        return URL.parse(url).pathname;
-        //return url.replace(/^(?:\/\/|[^\/]+)*\//, "");
+        return URL.parse(url).pathname.replace(/\/+$/, "");
+        //return url.replace(/^(?:\/\/|[^\/]+)*\//, "").replace(/\/+$/, "");
     };
 
 }).call(Helpers.prototype);
