@@ -44,6 +44,6 @@ module.exports = scraper;
 
 // In order to test, uncomment this part and run node scraper.js
 
-//scraper('weekly meal planner', 'us', 'en', null, 'ltpc170d53a:c170d53a@ltp.viia.me:8074', 'bing', function (err, links) {
+//scraper('great leaders', 'in', 'en', 0, 'ltpc170d53a:c170d53a@ltp.viia.me:8656', 'google', function (err, links) {
 //    console.log('google ', links)
 //});
