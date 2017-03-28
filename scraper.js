@@ -11,11 +11,12 @@ var bing = require('./lib/bing');
  * @param start
  * @param proxy
  * @param type
+ * @param device
  * @param callback
  */
-function scraper(query, sedb, lang, start, proxy, type, callback) {
+function scraper(query, sedb, lang, start, proxy, type, device, callback) {
    if(type === 'yahoo') {
-       yahoo(query, sedb, lang, start, proxy, function (err, next, links) {
+       yahoo(query, sedb, lang, start, proxy, device, function (err, next, links) {
            if (err) {
                callback(err);
            } else {
@@ -23,7 +24,7 @@ function scraper(query, sedb, lang, start, proxy, type, callback) {
            }
        });
    } else if(type === 'bing') {
-       bing(query, sedb, lang, start, proxy, function (err, next, links) {
+       bing(query, sedb, lang, start, proxy, device, function (err, next, links) {
            if (err) {
                callback(err);
            } else {
@@ -31,7 +32,7 @@ function scraper(query, sedb, lang, start, proxy, type, callback) {
            }
        });
    } else {
-       google(query, sedb, lang, start, proxy, function (err, next, links) {
+       google(query, sedb, lang, start, proxy, device, function (err, next, links) {
            if (err) {
                callback(err);
            } else {
