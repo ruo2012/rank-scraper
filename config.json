@@ -52,6 +52,12 @@
       "bing": "be"
     },
     {
+      "cc": "bz", 
+      "tld": "com.bz", 
+      "name": "Belize",
+      "uule": "w+CAIQICIGQmVsaXpl"
+    },        
+    {
       "cc": "br",
       "tld": "com.br",
       "name": "Brazil",
@@ -73,12 +79,25 @@
       "bing": "ca"
     },
     {
+      "cc": "cl",
+      "tld": "cl", 
+      "name": "Chile", 
+      "uule": "w+CAIQICIFQ2hpbGU"
+    },
+        
+    {
       "cc": "co",
       "tld": "com.co",
       "name": "Colombia",
       "uule": "w+CAIQICIIQ29sb21iaWE",
       "bing": "co"
     },
+    {
+      "cc": "cr", 
+      "tld": "co.cr", 
+      "name": "Costa Rica", 
+      "uule": "w+CAIQICIOQ3plY2ggUmVwdWJsaWM"
+    },    
     {
       "cc": "cz",
       "tld": "cz",
@@ -92,6 +111,18 @@
       "name": "Denmark",
       "uule": "w+CAIQICILU3dpdHplcmxhbmQ",
       "bing": "dk"
+    },
+    {
+      "cc": "ec", 
+      "tld": "com.ec", 
+      "name": "Ecuador", 
+      "uule": "w+CAIQICIHRWN1YWRvcg"
+    },
+    {
+      "cc": "sv", 
+      "tld": "com.sv", 
+      "name": "El Salvador", 
+      "uule": "w+CAIQICILRWwgU2FsdmFkb3I"
     },
     {
       "cc": "eg",
@@ -142,6 +173,12 @@
       "uule": "w+CAIQICIFR2hhbmE",
       "bing": "gh"
     },
+    {
+    "cc": "hn", 
+    "tld": "hn", 
+    "name": "Honduras", 
+    "uule": "w+CAIQICIFR2hhbmE"
+    },    
     {
       "cc": "hk",
       "tld": "com.hk",
@@ -227,6 +264,12 @@
       "bing": "nz"
     },
     {
+      "cc": "ni", 
+      "tld": "ni", 
+      "name": "Nicaragua", 
+      "uule": "w+CAIQICIJTmljYXJhZ3Vh"
+    },    
+    {
       "cc": "no",
       "tld": "no",
       "name": "Norway",
@@ -246,6 +289,24 @@
       "name": "Pakistan",
       "uule": "w+CAIQICIIUGFraXN0YW4",
       "bing": "pk"
+    },
+    {
+      "cc": "pa", 
+      "tld": "com.pa", 
+      "name": "Panama", 
+      "uule": "w+CAIQICIGUGFuYW1h"
+    },
+    {
+      "cc": "py", 
+      "tld": "com.py", 
+      "name": "Paraguay", 
+      "uule": "w+CAIQICIIUGFyYWd1YXk"
+    },
+    {
+      "cc": "pe", 
+      "tld": "com.pe", 
+      "name": "Peru", 
+      "uule": "w+CAIQICIEUGVydQ"
     },
     {
       "cc": "pl",
@@ -344,6 +405,18 @@
       "name": "United States",
       "uule": "w+CAIQICINVW5pdGVkIFN0YXRlcw",
       "bing": "us"
+    },
+    {
+      "cc": "uy", 
+      "tld": "com.uy", 
+      "name": "Uruguay", 
+      "uule": "w+CAIQICIHVXJ1Z3VheQ"
+    },
+    {
+      "cc": "ve", 
+      "tld": "co.ve", 
+      "name": "Venezuela", 
+      "uule": "w+CAIQICIJVmVuZXp1ZWxh"
     },
     {
       "cc": "vn",
