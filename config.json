@@ -30,327 +30,64 @@
     "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25"
   ],
   "COUNTRY_CODES": [
-    {
-      "cc": "ar",
-      "tld": "com.ar",
-      "name": "Argentina",
-      "uule": "w+CAIQICIJQXVzdHJhbGlh",
-      "bing": "ar"
-    },
-    {
-      "cc": "au",
-      "tld": "com.au",
-      "name": "Australia",
-      "uule": "w+CAIQICIJQnJhemls",
-      "bing": "au"
-    },
-    {
-      "cc": "be",
-      "tld": "be",
-      "name": "Belgium",
-      "uule": "w+CAIQICIJQXJnZW50aW5h",
-      "bing": "be"
-    },
-    {
-      "cc": "br",
-      "tld": "com.br",
-      "name": "Brazil",
-      "uule": "w+CAIQICIGQnJhemls",
-      "bing": "br"
-    },
-    {
-      "cc": "bg",
-      "tld": "bg",
-      "name": "Bulgaria",
-      "uule": "w+CAIQICIIQnVsZ2FyaWE",
-      "bing": "bg"
-    },
-    {
-      "cc": "ca",
-      "tld": "ca",
-      "name": "Canada",
-      "uule": "w+CAIQICIGQ2FuYWRh",
-      "bing": "ca"
-    },
-    {
-      "cc": "co",
-      "tld": "com.co",
-      "name": "Colombia",
-      "uule": "w+CAIQICIIQ29sb21iaWE",
-      "bing": "co"
-    },
-    {
-      "cc": "cz",
-      "tld": "cz",
-      "name": "Czech Republic",
-      "uule": "w+CAIQICIOQ3plY2ggUmVwdWJsaWM",
-      "bing": "cz"
-    },
-    {
-      "cc": "dk",
-      "tld": "dk",
-      "name": "Denmark",
-      "uule": "w+CAIQICILU3dpdHplcmxhbmQ",
-      "bing": "dk"
-    },
-    {
-      "cc": "eg",
-      "tld": "com.eg",
-      "name": "Egypt",
-      "uule": "w+CAIQICIFRWd5cHQ",
-      "bing": "eg"
-    },
-    {
-      "cc": "ee",
-      "tld": "ee",
-      "name": "Estonia",
-      "uule": "w+CAIQICIHRXN0b25pYQ",
-      "bing": "ee"
-    },
-    {
-      "cc": "fi",
-      "tld": "fi",
-      "name": "Finland",
-      "uule": "w+CAIQICIHRGVubWFyaw",
-      "bing": "fi"
-    },
-    {
-      "cc": "fr",
-      "tld": "fr",
-      "name": "France",
-      "uule": "w+CAIQICIHR2VybWFueQ",
-      "bing": "fr"
-    },
-    {
-      "cc": "gt",
-      "tld": "com.gt",
-      "name": "Guatemala",
-      "uule": "w+CAIQICIJR3VhdGVtYWxh",
-      "bing": "gt"
-    },
-    {
-      "cc": "de",
-      "tld": "de",
-      "name": "Germany",
-      "uule": "w+CAIQICIGUnVzc2lh",
-      "bing": "de"
-    },
-    {
-      "cc": "gh",
-      "tld": "com.gh",
-      "name": "Ghana",
-      "uule": "w+CAIQICIFR2hhbmE",
-      "bing": "gh"
-    },
-    {
-      "cc": "hk",
-      "tld": "com.hk",
-      "name": "Hong Kong",
-      "uule": "w+CAIQICIJSG9uZyBLb25n",
-      "bing": "hk"
-    },
-    {
-      "cc": "hu",
-      "tld": "hu",
-      "name": "Hungary",
-      "uule": "w+CAIQICIHSHVuZ2FyeQ",
-      "bing": "hu"
-    },
-    {
-      "cc": "in",
-      "tld": "co.in",
-      "name": "India",
-      "uule": "w+CAIQICIFSW5kaWE",
-      "bing": "in"
-    },
-    {
-      "cc": "id",
-      "tld": "co.id",
-      "name": "Indonesia",
-      "uule": "w+CAIQICIJSW5kb25lc2lh",
-      "bing": "id"
-    },
-    {
-      "cc": "ie",
-      "tld": "ie",
-      "name": "Ireland",
-      "uule": "w+CAIQICIHRmlubGFuZA",
-      "bing": "ie"
-    },
-    {
-      "cc": "il",
-      "tld": "co.il",
-      "name": "Israel",
-      "uule": "w+CAIQICIHSXJlbGFuZA",
-      "bing": "il"
-    },
-    {
-      "cc": "it",
-      "tld": "it",
-      "name": "Italy",
-      "uule": "w+CAIQICIFU3BhaW4",
-      "bing": "it"
-    },
-    {
-      "cc": "jp",
-      "tld": "co.jp",
-      "name": "Japan",
-      "uule": "w+CAIQICIFSmFwYW4",
-      "bing": "jp"
-    },
-    {
-      "cc": "my",
-      "tld": "com.my",
-      "name": "Malaysia",
-      "uule": "w+CAIQICIITWFsYXlzaWE",
-      "bing": "my"
-    },
-    {
-      "cc": "mx",
-      "tld": "com.mx",
-      "name": "Mexico",
-      "uule": "w+CAIQICIGSXNyYWVs",
-      "bing": "mx"
-    },
-    {
-      "cc": "nl",
-      "tld": "nl",
-      "name": "Netherlands",
-      "uule": "w+CAIQICIGTWV4aWNv",
-      "bing": "nl"
-    },
-    {
-      "cc": "nz",
-      "tld": "co.nz",
-      "name": "New Zealand",
-      "uule": "w+CAIQICILTmV3IFplYWxhbmQ",
-      "bing": "nz"
-    },
-    {
-      "cc": "no",
-      "tld": "no",
-      "name": "Norway",
-      "uule": "w+CAIQICILTmV0aGVybGFuZHM",
-      "bing": "no"
-    },
-    {
-      "cc": "ph",
-      "tld": "com.ph",
-      "name": "Philippines",
-      "uule": "w+CAIQICILUGhpbGlwcGluZXM",
-      "bing": "ph"
-    },
-    {
-      "cc": "pk",
-      "tld": "com.pk",
-      "name": "Pakistan",
-      "uule": "w+CAIQICIIUGFraXN0YW4",
-      "bing": "pk"
-    },
-    {
-      "cc": "pl",
-      "tld": "pl",
-      "name": "Poland",
-      "uule": "w+CAIQICIGTm9yd2F5",
-      "bing": "pl"
-    },
-    {
-      "cc": "pt",
-      "tld": "pt",
-      "name": "Portugal",
-      "uule": "w+CAIQICIIUG9ydHVnYWw",
-      "bing": "pt"
-    },
-    {
-      "cc": "ro",
-      "tld": "ro",
-      "name": "Romania",
-      "uule": "w+CAIQICIHUm9tYW5pYQ",
-      "bing": "ro"
-    },
-    {
-      "cc": "ru",
-      "tld": "ru",
-      "name": "Russia",
-      "uule": "w+CAIQICIGUnVzc2lh",
-      "bing": "ru"
-    },
-    {
-      "cc": "sg",
-      "tld": "com.sg",
-      "name": "Singapore",
-      "uule": "w+CAIQICIGU3dlZGVu",
-      "bing": "sg"
-    },
-    {
-      "cc": "rs",
-      "tld": "rs",
-      "name": "Serbia",
-      "uule": "w+CAIQICIGU2VyYmlh",
-      "bing": "rs"
-    },
-    {
-      "cc": "za",
-      "tld": "co.za",
-      "name": "South Africa",
-      "uule": "w+CAIQICIMU291dGggQWZyaWNh",
-      "bing": "za"
-    },
-    {
-      "cc": "es",
-      "tld": "es",
-      "name": "Spain",
-      "uule": "w+CAIQICIGRnJhbmNl",
-      "bing": "es"
-    },
-    {
-      "cc": "se",
-      "tld": "se",
-      "name": "Sweden",
-      "uule": "w+CAIQICIGUG9sYW5k",
-      "bing": "se"
-    },
-    {
-      "cc": "ch",
-      "tld": "ch",
-      "name": "Switzerland",
-      "uule": "w+CAIQICIHQmVsZ2l1bQ",
-      "bing": "ch"
-    },
-    {
-      "cc": "tr",
-      "tld": "com.tr",
-      "name": "Turkey",
-      "uule": "w+CAIQICIJU2luZ2Fwb3Jl",
-      "bing": "tr"
-    },
-    {
-      "cc": "ae",
-      "tld": "ae",
-      "name": "United Arab Emirates",
-      "uule": "w+CAIQICIUVW5pdGVkIEFyYWIgRW1pcmF0ZXM",
-      "bing": "ae"
-    },
-    {
-      "cc": "uk",
-      "tld": "co.uk",
-      "name": "United Kingdom",
-      "uule": "w+CAIQICIOVW5pdGVkIEtpbmdkb20",
-      "bing": "gb"
-    },
-    {
-      "cc": "us",
-      "tld": "com",
-      "name": "United States",
-      "uule": "w+CAIQICINVW5pdGVkIFN0YXRlcw",
-      "bing": "us"
-    },
-    {
-      "cc": "vn",
-      "tld": "com.vn",
-      "name": "Vietnam",
-      "uule": "w+CAIQICIHVmlldG5hbQ",
-      "bing": ""
-    }
+    {"cc": "ar", "tld": "com.ar", "name": "Argentina", "uule": "w+CAIQICIJQXJnZW50aW5h"},
+    {"cc": "au", "tld": "com.au", "name": "Australia", "uule": "w+CAIQICIJQXVzdHJhbGlh"},
+    {"cc": "be", "tld": "be", "name": "Belgium", "uule": "w+CAIQICIHQmVsZ2l1bQ=="},
+    {"cc": "bz", "tld": "com.bz", "name": "Belize", "uule": "w+CAIQICIGQmVsaXpl"},
+    {"cc": "br", "tld": "com.br", "name": "Brazil", "uule": "w+CAIQICIGQnJhemls"},
+    {"cc": "bg", "tld": "bg", "name": "Bulgaria", "uule": "w+CAIQICIIQnVsZ2FyaWE="},
+    {"cc": "ca", "tld": "ca", "name": "Canada", "uule": "w+CAIQICIGQ2FuYWRh"},
+    {"cc": "cl", "tld": "cl", "name": "Chile", "uule": "w+CAIQICIFQ2hpbGU="},    
+    {"cc": "co", "tld": "com.co", "name": "Colombia", "uule": "w+CAIQICIIQ29sb21iaWE="},
+    {"cc": "cr", "tld": "co.cr", "name": "Costa Rica", "uule": "w+CAIQICIKQ29zdGEgUmljYQ=="},
+    {"cc": "cz", "tld": "cz", "name": "Czech Republic", "uule": "w+CAIQICIHQ3plY2hpYQ=="},
+    {"cc": "dk", "tld": "dk", "name": "Denmark", "uule": "w+CAIQICIHRGVubWFyaw=="},
+    {"cc": "ec", "tld": "com.ec", "name": "Ecuador", "uule": "w+CAIQICIHRWN1YWRvcg=="},
+    {"cc": "sv", "tld": "com.sv", "name": "El Salvador", "uule": "w+CAIQICILRWwgU2FsdmFkb3I="},
+    {"cc": "eg", "tld": "com.eg", "name": "Egypt", "uule": "w+CAIQICIFRWd5cHQ="},
+    {"cc": "ee", "tld": "ee", "name": "Estonia", "uule": "w+CAIQICIHRXN0b25pYQ="},
+    {"cc": "fi", "tld": "fi", "name": "Finland", "uule": "w+CAIQICIHRmlubGFuZA=="},
+    {"cc": "fr", "tld": "fr", "name": "France", "uule": "w+CAIQICIGRnJhbmNl"},
+    {"cc": "gt", "tld": "com.gt", "name": "Guatemala", "uule": "w+CAIQICIJR3VhdGVtYWxh"},
+    {"cc": "de", "tld": "de", "name": "Germany", "uule": "w+CAIQICIHR2VybWFueQ=="},
+    {"cc": "gh", "tld": "com.gh", "name": "Ghana", "uule": "w+CAIQICIFR2hhbmE="},
+    {"cc": "hn", "tld": "hn", "name": "Honduras", "uule": "w+CAIQICIISG9uZHVyYXM="},
+    {"cc": "hk", "tld": "com.hk", "name": "Hong Kong", "uule": "w+CAIQICIJSG9uZyBLb25n"},
+    {"cc": "hu", "tld": "hu", "name": "Hungary", "uule": "w+CAIQICIHSHVuZ2FyeQ=="},
+    {"cc": "in", "tld": "co.in", "name": "India", "uule": "w+CAIQICIFSW5kaWE="},
+    {"cc": "id", "tld": "co.id", "name": "Indonesia", "uule": "w+CAIQICIJSW5kb25lc2lh"},
+    {"cc": "ie", "tld": "ie", "name": "Ireland", "uule": "w+CAIQICIHRmlubGFuZA=="},
+    {"cc": "il", "tld": "co.il", "name": "Israel", "uule": "w+CAIQICIGSXNyYWVs"},
+    {"cc": "it", "tld": "it", "name": "Italy", "uule": "w+CAIQICIFSXRhbHk="},
+    {"cc": "jp", "tld": "co.jp", "name": "Japan", "uule": "w+CAIQICIFSmFwYW4="},
+    {"cc": "my", "tld": "com.my", "name": "Malaysia", "uule": "w+CAIQICIITWFsYXlzaWE="},
+    {"cc": "mx", "tld": "com.mx", "name": "Mexico", "uule": "w+CAIQICIGTWV4aWNv"},
+    {"cc": "nl", "tld": "nl", "name": "Netherlands", "uule": "w+CAIQICILTmV0aGVybGFuZHM="},
+    {"cc": "nz", "tld": "co.nz", "name": "New Zealand", "uule": "w+CAIQICILTmV3IFplYWxhbmQ="},
+    {"cc": "ni", "tld": "ni", "name": "Nicaragua", "uule": "w+CAIQICIJTmljYXJhZ3Vh"},
+    {"cc": "no", "tld": "no", "name": "Norway", "uule": "w+CAIQICIGTm9yd2F5"},
+    {"cc": "ph", "tld": "com.ph", "name": "Philippines", "uule": "w+CAIQICILUGhpbGlwcGluZXM="},
+    {"cc": "pk", "tld": "com.pk", "name": "Pakistan", "uule": "w+CAIQICIIUGFraXN0YW4="},
+    {"cc": "pa", "tld": "com.pa", "name": "Panama", "uule": "w+CAIQICIGUGFuYW1h"},
+    {"cc": "py", "tld": "com.py", "name": "Paraguay", "uule": "w+CAIQICIIUGFyYWd1YXk="},
+    {"cc": "pe", "tld": "com.pe", "name": "Peru", "uule": "w+CAIQICIEUGVydQ=="},
+    {"cc": "pl", "tld": "pl", "name": "Poland", "uule": "w+CAIQICIGTm9yd2F5"},
+    {"cc": "pt", "tld": "pt", "name": "Portugal", "uule": "w+CAIQICIIUG9ydHVnYWw="},
+    {"cc": "ro", "tld": "ro", "name": "Romania", "uule": "w+CAIQICIHUm9tYW5pYQ=="},
+    {"cc": "ru", "tld": "ru", "name": "Russia", "uule": "w+CAIQICIGUnVzc2lh"},
+    {"cc": "sg", "tld": "com.sg", "name": "Singapore", "uule": "w+CAIQICIJU2luZ2Fwb3Jl"},
+    {"cc": "rs", "tld": "rs", "name": "Serbia", "uule": "w+CAIQICIGU2VyYmlh"},
+    {"cc": "sk", "tld": "sk", "name": "Slovakia", "uule": "w+CAIQICIIU2xvdmFraWE="},    
+    {"cc": "za", "tld": "co.za", "name": "South Africa", "uule": "w+CAIQICIMU291dGggQWZyaWNh"},
+    {"cc": "es", "tld": "es", "name": "Spain", "uule": "w+CAIQICIFU3BhaW4="},
+    {"cc": "se", "tld": "se", "name": "Sweden", "uule": "w+CAIQICIGU3dlZGVu"},
+    {"cc": "ch", "tld": "ch", "name": "Switzerland", "uule": "w+CAIQICIHQmVsZ2l1bQ="},
+    {"cc": "tr", "tld": "com.tr", "name": "Turkey", "uule": "w+CAIQICIGVHVya2V5"},
+    {"cc": "ae", "tld": "ae", "name": "United Arab Emirates", "uule": "w+CAIQICIUVW5pdGVkIEFyYWIgRW1pcmF0ZXM="},
+    {"cc": "uk", "tld": "co.uk", "name": "United Kingdom", "uule": "w+CAIQICIOVW5pdGVkIEtpbmdkb20="},
+    {"cc": "us", "tld": "com", "name": "United States", "uule": "w+CAIQICINVW5pdGVkIFN0YXRlcw=="},
+    {"cc": "uy", "tld": "com.uy", "name": "Uruguay", "uule": "w+CAIQICIHVXJ1Z3VheQ=="},
+    {"cc": "ve", "tld": "co.ve", "name": "Venezuela", "uule": "w+CAIQICIJVmVuZXp1ZWxh"},
+    {"cc": "vn", "tld": "com.vn", "name": "Vietnam", "uule": "w+CAIQICIHVmlldG5hbQ=="}
   ]
 }
