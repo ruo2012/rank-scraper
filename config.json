@@ -31,7 +31,8 @@
   ],
   "COUNTRY_CODES": [
     {"cc": "ar", "tld": "com.ar", "name": "Argentina", "uule": "w+CAIQICIJQXJnZW50aW5h"},
-    {"cc": "au", "tld": "com.au", "name": "Australia", "uule": "w+CAIQICIJQXVzdHJhbGlh"},
+    {"cc": "au", "tld": "com.au", "name": "Australia", "uule": "w+CAIQICIJQXVzdHJhbGlh"},    
+    {"cc": "at", "tld": "at", "name": "Austria", "uule": "w+CAIQICIHQXVzdHJpYQ=="},    
     {"cc": "be", "tld": "be", "name": "Belgium", "uule": "w+CAIQICIHQmVsZ2l1bQ=="},
     {"cc": "bz", "tld": "com.bz", "name": "Belize", "uule": "w+CAIQICIGQmVsaXpl"},
     {"cc": "br", "tld": "com.br", "name": "Brazil", "uule": "w+CAIQICIGQnJhemls"},
