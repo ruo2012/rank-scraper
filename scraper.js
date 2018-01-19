@@ -14,7 +14,7 @@ var bing = require('./lib/bing');
  * @param device
  * @param callback
  */
-function scraper(query, sedb, lang, start, proxy, type, device, callback) {
+function scraper(query, sedb, lang, start, proxy, type, device, cert, callback) {
    if(type === 'yahoo') {
        yahoo(query, sedb, lang, start, proxy, 'desktop', function (err, next, links) {
            if (err) {
@@ -32,7 +32,7 @@ function scraper(query, sedb, lang, start, proxy, type, device, callback) {
            }
        });
    } else {
-       google(query, sedb, lang, start, proxy, device, function (err, next, links) {
+       google(query, sedb, lang, start, proxy, device, cert, function (err, next, links) {
            if (err) {
                callback(err);
            } else {
